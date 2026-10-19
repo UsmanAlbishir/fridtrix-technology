@@ -6,8 +6,8 @@
  */
 
 export const WHATSAPP_CONFIG = {
-  // Read from environment variable, falling back to a documented placeholder
-  rawNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "234XXXXXXXXXX",
+  // Read from environment variable, falling back to Fridtrix Technology's official number
+  rawNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "2349061471670",
   defaultPlaceholder: "234XXXXXXXXXX",
   brandName: "Fridtrix Technology",
   tagline: "Innovative Solutions. Greater Impact.",
